@@ -1,0 +1,30 @@
+ {
+    "name": "wafflesystems/sessions",
+    "type": "library",
+    "description": "PHP Library to create a new way to handles sessions.",
+    "keywords": ["session", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kayla",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "wafflesystems/io": ">=1.0.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WaffleSystems\\Session\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WaffleSystems\\Session\\Tests\\": "tests"
+        }
+    }
+}

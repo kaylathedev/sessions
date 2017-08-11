@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true" bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Library Test Suite">
+            <directory>./tests/</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="testdox-html" target="logs/testdox.html" highlight="true"></log>
+        <log type="json" target="logs/report.json" highlight="true"></log>
+        <log type="tap" target="logs/report.tap" highlight="true"></log>
+        <log type="junit" target="logs/report.xml" highlight="true"></log>
+    </logging>
+</phpunit>
